@@ -12,6 +12,7 @@ const listCharacters = async (req = request, res = response) => {
     conn = await pool.getConnection();
 
     const rows = await conn.query(GenshinModel.getAll, (err) => {
+      
       if (err) {
         throw err
       }
@@ -22,7 +23,7 @@ const listCharacters = async (req = request, res = response) => {
     console.log(error);
     res.status(500).json(error);
   } finally {
-    if (conn) conn.release();
+    if (conn) conn.end();
   }
 };
 
