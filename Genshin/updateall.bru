@@ -1,0 +1,35 @@
+meta {
+  name: updateall
+  type: http
+  seq: 4
+}
+
+patch {
+  url: http://localhost:3000/api/v1/genshin/
+  body: json
+  auth: none
+}
+
+auth:basic {
+  username: 
+  password: 
+}
+
+auth:bearer {
+  token: 
+}
+
+body:json {
+   
+   {
+  
+      "rarity": 5,
+      "region": "Liyue",
+      "vision": "Pyro",
+      "weapon_type": "Sword",
+      "model": "Tall Male",
+      "constellation": "x",
+      "birthday": "1-Ago",
+      "release_date": "12/3/23"
+    }
+}

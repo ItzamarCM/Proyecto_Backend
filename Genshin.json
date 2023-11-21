@@ -1,0 +1,165 @@
+{
+  "name": "Genshin",
+  "version": "1",
+  "items": [
+    {
+      "type": "http",
+      "name": "Add",
+      "seq": 3,
+      "request": {
+        "url": "http://localhost:3000/api/v1/genshin",
+        "method": "PUT",
+        "headers": [],
+        "body": {
+          "mode": "json",
+          "json": "{\n  \"character_name\": \"Itzamar\",\n  \"rarity\": 5,\n  \"region\": \"Inazuma\",\n  \"vision\": \"Hydro\",\n  \"weapon_type\": \"Bow\",\n  \"model\": \"Tall Female\",\n  \"constellation\": \"XYX\",\n  \"birthday\": \"9-Jul\",\n  \"release_date\": \"30/11/23\"\n}\n",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": []
+      }
+    },
+    {
+      "type": "http",
+      "name": "delete",
+      "seq": 5,
+      "request": {
+        "url": "http://localhost:3000/api/v1/genshin/",
+        "method": "DELETE",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": []
+      }
+    },
+    {
+      "type": "http",
+      "name": "listALL",
+      "seq": 1,
+      "request": {
+        "url": "http://localhost:3000/api/v1/genshin",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": []
+      }
+    },
+    {
+      "type": "http",
+      "name": "search name",
+      "seq": 2,
+      "request": {
+        "url": "http://localhost:3000/api/v1/genshin/name?character_name=",
+        "method": "GET",
+        "headers": [],
+        "body": {
+          "mode": "none",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": [
+          {
+            "name": "character_name",
+            "value": "Itzamar",
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "type": "http",
+      "name": "updateall",
+      "seq": 4,
+      "request": {
+        "url": "http://localhost:3000/api/v1/genshin/",
+        "method": "PATCH",
+        "headers": [],
+        "body": {
+          "mode": "json",
+          "json": " \n {\n\n    \"rarity\": 4,\n    \"region\": \"Liyue\",\n    \"vision\": \"Pyro\",\n    \"weapon_type\": \"Sword\",\n    \"model\": \"Tall Male\",\n    \"constellation\": \"x\",\n    \"birthday\": \"12-Ago\",\n    \"release_date\": \"12/3/23\"\n  }",
+          "formUrlEncoded": [],
+          "multipartForm": []
+        },
+        "auth": {
+          "mode": "none",
+          "basic": {
+            "username": "",
+            "password": ""
+          },
+          "bearer": {
+            "token": ""
+          }
+        },
+        "script": {},
+        "vars": {},
+        "assertions": [],
+        "tests": "",
+        "query": []
+      }
+    }
+  ],
+  "environments": []
+}
