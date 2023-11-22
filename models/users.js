@@ -39,6 +39,7 @@ updateCharacter: `
   UPDATE
      genshin
   SET 
+  
     rarity = ?,
     region = ?, 
     vision = ?, 
@@ -54,7 +55,7 @@ updateCharacter: `
 deleteRow:`DELETE 
 FROM 
     genshin
- WHERE  character_name = ?`,
+ WHERE  character_name = ?`, //id
 getConstellatio:
 `  SELECT 
     * 

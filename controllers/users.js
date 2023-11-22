@@ -107,6 +107,20 @@ const AddCharacter = async (req = request, res = response) => {
           res.status(409).json({ msg: `Character with name ${character_name} already exists` });
           return;
       }
+
+      //checa si la contelación existe
+      const [existconstell] = await conn.query (
+        GenshinModel.getConstellatio,
+        [constellation],
+        (err) => { if (err) throw err; }
+      );
+
+      if (existconstell){ //emprime el mensaje si es que existe la constelación
+        res.status(409).json({msg:`constellation already exists (${constellation})`});
+
+        return;
+      }
+
         //pasa los valores de Character a characterAdded
       const characterAdded = await conn.query(GenshinModel.addRow, [...Character], (err) => {
           if (err) throw err;
@@ -115,6 +129,7 @@ const AddCharacter = async (req = request, res = response) => {
       if (characterAdded.affectedRows === 0) {
           throw new Error({ message: 'Failed to add character' });
       }
+      
         //Devuelve una respuesta JSON indicando que el personaje se ha agregado correctamente.
       res.json({ msg: 'Character added successfully' });
   } catch (error) {
@@ -125,15 +140,16 @@ const AddCharacter = async (req = request, res = response) => {
   }
 };
 
-//########################### UPDATE ######################
+//########################### UPDATE ####################################
 const updateCharacter = async (req = request, res = response) => {
   let conn; //variable 'conn' para almacenar una conexión a la bd
 
   //Extrae el parámetro 'character_name' de la solicitud HTTP
-  const { character_name } = req.params; 
+  const { character_name } = req.params; //id
 
   const { //Extrae los datos actualizados del personaje del body
-      rarity,
+      //character_name,
+      rarity, 
       region,
       vision,
       weapon_type,
@@ -144,6 +160,7 @@ const updateCharacter = async (req = request, res = response) => {
   } = req.body;
 
   let character = [ //arreglo 'character' con los datos actualizados del personaje.
+    //character_name,
     rarity,
     region,
     vision,
