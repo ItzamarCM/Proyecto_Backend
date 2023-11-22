@@ -11,7 +11,7 @@ const router = Router();
 router.get('/', listCharacters);
 router.get('/:name', nameSearch); 
 router.put('/', AddCharacter);
-router.patch('/:character_name', updateCharacter);
+router.patch('/:id', updateCharacter);
 router.delete('/:character_name', deletecharacter);
 
 

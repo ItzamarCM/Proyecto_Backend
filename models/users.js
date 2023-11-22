@@ -39,7 +39,7 @@ updateCharacter: `
   UPDATE
      genshin
   SET 
-  
+    character_name = ?,
     rarity = ?,
     region = ?, 
     vision = ?, 
@@ -48,7 +48,7 @@ updateCharacter: `
     constellation = ?,
     birthday = ?,
     release_date = ?
-  WHERE character_name = ?
+  WHERE id = ?
 `,
 
 
@@ -62,6 +62,15 @@ getConstellatio:
     FROM
         genshin
     WHERE constellation = ?
+    `,
+
+    getById:
+`  SELECT 
+    * 
+    FROM
+        genshin
+    WHERE id = ?
     `
+
     }
 module.exports = Genshinmodel;

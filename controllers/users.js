@@ -145,10 +145,10 @@ const updateCharacter = async (req = request, res = response) => {
   let conn; //variable 'conn' para almacenar una conexión a la bd
 
   //Extrae el parámetro 'character_name' de la solicitud HTTP
-  const { character_name } = req.params; //id
+  const { id } = req.params; //id
 
   const { //Extrae los datos actualizados del personaje del body
-      //character_name,
+      character_name,
       rarity, 
       region,
       vision,
@@ -160,7 +160,7 @@ const updateCharacter = async (req = request, res = response) => {
   } = req.body;
 
   let character = [ //arreglo 'character' con los datos actualizados del personaje.
-    //character_name,
+    character_name,
     rarity,
     region,
     vision,
@@ -174,35 +174,35 @@ const updateCharacter = async (req = request, res = response) => {
   try {
       conn = await pool.getConnection(); // conexión a la base de datos utilizando el objeto 'pool
 
-      //verificar si el personaje con el nombre proporcionado existe.
-      const [characterExists] = await conn.query(
-          GenshinModel.getByName,
-          [character_name],
+      //verificar si el personaje con el id proporcionado existe.
+      const [idExists] = await conn.query(
+          GenshinModel.getById,
+          [id],
           (err) => { throw err; }
       );
 
       //Si el personaje no existe, devuelve un mensaje indicando que el personaje no se encontró
-      if (!characterExists) {
-          res.status(404).json({ msg: '--Character not found--' });
+      if (!idExists) {
+          res.status(404).json({ msg: '--Id not found--' });
           return;
       }
 
       //Verifica si la constelación proporcionada ya existe para evitar duplicados.
-      if (constellation === characterExists.constellation) { //si es extrictamente igual a una que ya existe
+      if (constellation === idExists.constellation) { //si es extrictamente igual a una que ya existe
         res.status(409).json({ msg: `constellation '${constellation}' already exists` });
         return;
       }
           //arreglo 'oldCharacter
       let oldCharacter = [ //muestra los datos actuales del personaje antes de la actualización
-          characterExists.character_name,
-          characterExists.rarity,
-          characterExists.region,
-          characterExists.vision,
-          characterExists.weapon_type,
-          characterExists.model,
-          characterExists.constellation,
-          characterExists.birthday,
-          characterExists.release_date
+        idExists.character_name,
+        idExists.rarity,
+        idExists.region,
+        idExists.vision,
+        idExists.weapon_type,
+        idExists.model,
+        idExists.constellation,
+        idExists.birthday,
+        idExists.release_date
       ];
 
       //Reemplaza los datos actualizados con los datos antiguos si los datos actualizados son nulos
@@ -213,7 +213,7 @@ const updateCharacter = async (req = request, res = response) => {
       });
 
       //consulta SQL para actualizar el personaje con los datos proporcionados
-      const characterUpdated = await conn.query(GenshinModel.updateCharacter, [...character, character_name], (err) => {
+      const characterUpdated = await conn.query(GenshinModel.updateCharacter, [...character, id], (err) => {
           if (err) throw err;
       });
 
