@@ -1,73 +1,75 @@
-id,character_name,rarity,region,vision,weapon_type,model,constellation,birthday,release_date
-1,Albedo,5,Mondstadt,Geo,Sword,Medium Male,Princeps Cretaceus,13-sep,12/23/20
-2,Alhaitham,5,Sumeru,Dendro,Sword,Tall Male,Vultur Volans,11-feb,01/18/23
-3,Aloy,5,NA,Cryo,Bow,Medium Female,Nora Fortis,4-Apr,09/01/2021
-4,Amber,4,Mondstadt,Pyro,Bow,Medium Female,Lepus,10-Aug,09/28/20
-5,Arataki Itto,5,Inazuma,Geo,Claymore,Tall Male,Taurus Iracundus,01-jun,12/14/21
-6,Baizhu,5,Liyue,Dendro,Catalyst,Tall Male,Lagenaria,25-Apr,05/02/2023
-7,Barbara,4,Mondstadt,Hydro,Catalyst,Medium Female,Crater,05-jul,09/28/20
-8,Beidou,4,Liyue,Electro,Claymore,Tall Female,Victor Mare,14-feb,09/28/20
-9,Bennett,4,Mondstadt,Pyro,Sword,Medium Male,Rota Calamitas,01-feb,09/28/20
-10,Candace,4,Sumeru,Hydro,Polearm,Tall Female,Sagitta Scutum,03-may,09/28/22
-11,Chongyun,4,Liyue,Cryo,Claymore,Medium Male,Nubis Caesor,07-sep,09/28/20
-12,Collei,4,Sumeru,Dendro,Bow,Medium Female,Leptailurus Cervarius,08-may,08/24/22
-13,Cyno,5,Sumeru,Electro,Polearm,Medium Male,Lupus Aureus,23-jun,09/28/22
-14,Dehya,5,Sumeru,Pyro,Claymore,Tall Female,Mantichora,7-Apr,03/01/2023
-15,Diluc,5,Mondstadt,Pyro,Claymore,Tall Male,Noctua,30-Apr,09/28/20
-16,Diona,4,Mondstadt,Cryo,Bow,Short Female,Feles,18-Jan,11/11/2020
-17,Dori,4,Sumeru,Electro,Claymore,Short Female,Magicae Lucerna,21-Dec,09/09/2022
-18,Eula,5,Mondstadt,Cryo,Claymore,Tall Female,Aphros Delos,25-oct,05/18/21
-19,Faruzan,4,Sumeru,Anemo,Bow,Medium Female,Flosculi Implexi,20-Aug,12/07/2023
-20,Fischl,4,Mondstadt,Electro,Bow,Medium Female,Corvus,27-may,09/28/20
-21,Freminet,4,Fontaine,Cryo,Claymore,Medium Male,Automaton,24-sep,09/05/2023
-22,Ganyu,5,Liyue,Cryo,Bow,Medium Female,Sinae Unicornis,2-Dec,01/12/2021
-23,Gorou,4,Inazuma,Geo,Bow,Medium Male,Canis Bellatoris,18-may,12/14/21
-24,Hu Tao,5,Liyue,Pyro,Polearm,Medium Female,Papilio Charontis,15-jul,03/02/2021
-25,Jean,5,Mondstadt,Anemo,Sword,Tall Female,Leo Minor,14-mar,09/28/20
-26,Kaedehara Kazuha,5,Inazuma,Anemo,Sword,Medium Male,Acer Palmatum,29-oct,06/29/21
-27,Kaeya,4,Mondstadt,Cryo,Sword,Tall Male,Pavo Ocellus,30-nov,09/28/20
-28,Kamisato Ayaka,5,Inazuma,Cryo,Sword,Medium Female,Grus Nivis,28-sep,07/21/21
-29,Kamisato Ayato,5,Inazuma,Hydro,Sword,Tall Male,Cypressus Custos,26-mar,04/30/22
-30,Kaveh,4,Sumeru,Dendro,Claymore,Tall Male,Paradisaea,09-jul,05/02/2023
-31,Keqing,5,Liyue,Electro,Sword,Medium Female,Trulla Cementarii,20-nov,09/28/20
-32,Kirara,4,Inazuma,Dendro,Sword,Medium Female,Arcella,22-Jan,05/24/23
-33,Klee,5,Mondstadt,Pyro,Catalyst,Short Female,Trifolium,27-jul,10/20/20
-34,Kujou Sara,4,Inazuma,Electro,Bow,Tall Female,Flabellum,14-jul,09/01/2021
-35,Kuki Shinobu,4,Inazuma,Electro,Sword,Medium Female,Tribulatio Demptio,27-jul,06/21/22
-36,Layla,4,Sumeru,Cryo,Sword,Medium Female,Luscinia,19-Dec,11/18/22
-37,Lisa,4,Mondstadt,Electro,Catalyst,Tall Female,Tempus Fugit,09-jun,09/28/20
-38,Lynette,4,Fontaine,Anemo,Sword,Medium Female,Felis Alba,02-feb,08/16/23
-39,Lyney,5,Fontaine,Pyro,Bow,Medium Male,Felis Fuscus,02-feb,08/16/23
-40,Mika,4,Mondstadt,Cryo,Polearm,Medium Male,Palumbus,11-Aug,03/21/23
-41,Mona,5,Mondstadt,Hydro,Catalyst,Medium Female,Astrolabos,31-Aug,09/28/20
-42,Nahida,5,Sumeru,Dendro,Catalyst,Short Female,Sapientia Oromasdis,27-oct,11/02/2022
-43,Nilou,5,Sumeru,Hydro,Sword,Medium Female,Lotos Somno,3-Dec,10/14/22
-44,Ningguang,4,Liyue,Geo,Catalyst,Tall Female,Opus Aequilibrium,26-Aug,09/28/20
-45,Noelle,4,Mondstadt,Geo,Claymore,Medium Female,Parma Cordis,21-mar,09/28/20
-46,Qiqi,5,Liyue,Cryo,Sword,Short Female,Pristina Nova,03-mar,09/28/20
-47,Raiden Shogun,5,Inazuma,Electro,Polearm,Tall Female,Imperatrix Umbrosa,26-jun,09/01/2021
-48,Razor,4,Mondstadt,Electro,Claymore,Medium Male,Lupus Minor,09-sep,09/28/20
-49,Rosaria,4,Mondstadt,Cryo,Polearm,Tall Female,Spinea Corona,24-Jan,04/06/2021
-50,Sangonomiya Kokomi,5,Inazuma,Hydro,Catalyst,Medium Female,Dracanea Somnolenta,22-feb,09/21/21
-51,Sayu,4,Inazuma,Anemo,Claymore,Short Female,Nyctereutes Minor,19-oct,08/10/2021
-52,Shenhe,5,Liyue,Cryo,Polearm,Tall Female,Crista Doloris,10-mar,01/05/2022
-53,Shikanoin Heizou,4,Inazuma,Anemo,Catalyst,Medium Male,Cervus Minor,24-jul,07/13/22
-54,Sucrose,4,Mondstadt,Anemo,Catalyst,Medium Female,Ampulla,26-sep,09/28/20
-55,Tartaglia,5,Snezhnaya,Hydro,Bow,Tall Male,Monoceros Caeli,20-jul,11/11/2020
-56,Thoma,4,Inazuma,Pyro,Polearm,Tall Male,Rubeum Scutum,9-Jan,10/02/2021
-57,Tighnari,5,Sumeru,Dendro,Bow,Medium Male,Vulpes Zerda,29-Dec,08/24/22
-58,Traveler (Aether),5,NA,None,Sword,Medium Female,Viator,Player's Choice,09/28/20
-59,Traveler (Lumine),5,NA,None,Sword,Medium Male,Viatrix,Player's Choice,09/28/20
-60,Venti,5,Mondstadt,Anemo,Bow,Medium Male,Carmen Dei,16-jun,09/28/20
-61,Wanderer,5,Sumeru,Anemo,Catalyst,Medium Male,Peregrinus,3-Jan,12/07/2022
-62,Xiangling,4,Liyue,Pyro,Polearm,Medium Female,Trulla,02-nov,09/28/20
-63,Xiao,5,Liyue,Anemo,Polearm,Medium Male,Alatus Nemeseos,17-Apr,02/03/2021
-64,Xingqiu,4,Liyue,Hydro,Sword,Medium Male,Fabulae Textile,09-oct,09/28/20
-65,Xinyan,4,Liyue,Pyro,Claymore,Medium Female,Fila Ignium,16-oct,12/01/2020
-66,Yae Miko,5,Inazuma,Electro,Catalyst,Tall Female,Divina Vulpes,27-jun,02/16/22
-67,Yanfei,4,Liyue,Pyro,Catalyst,Medium Female,Bestia Iustitia,28-jul,04/28/21
-68,Yaoyao,4,Liyue,Dendro,Polearm,Short Female,Osmanthus,06-mar,01/18/23
-69,Yelan,5,Liyue,Hydro,Bow,Tall Female,Umbrabilis Orchis,20-Apr,05/31/22
-70,Yoimiya,5,Inazuma,Pyro,Bow,Medium Female,Carassius Auratus,21-jun,08/10/2021
-71,Yun Jin,4,Liyue,Geo,Polearm,Medium Female,Opera Grandis,21-may,01/05/2022
-72,Zhongli,5,Liyue,Geo,Polearm,Tall Male,Lapis Dei,31-Dec,12/01/2020
+"id","character_name","rarity","region","vision","weapon_type","model","constellation","birthday","release_date"
+1,Albedo,5,Mondstadt,Geo,Sword,Medium Male,Princeps Cretaceus,"13-sep","12/23/20"
+2,Alhaitham,5,Sumeru,Dendro,Sword,Tall Male,Vultur Volans,"11-feb","01/18/23"
+3,Aloy,5,NA,Cryo,Bow,Medium Female,Nora Fortis,"4-Apr","09/01/2021"
+4,Amber,4,Mondstadt,Pyro,Bow,Medium Female,Lepus,"10-Aug","09/28/20"
+5,Arataki Itto,5,Inazuma,Geo,Claymore,Tall Male,Taurus Iracundus,"01-jun","12/14/21"
+6,Baizhu,5,Liyue,Dendro,Catalyst,Tall Male,Lagenaria,"25-Apr","05/02/2023"
+7,Barbara,4,Mondstadt,Hydro,Catalyst,Medium Female,Crater,"05-jul","09/28/20"
+8,Beidou,4,Liyue,Electro,Claymore,Tall Female,Victor Mare,"14-feb","09/28/20"
+9,Bennett,4,Mondstadt,Pyro,Sword,Medium Male,Rota Calamitas,"01-feb","09/28/20"
+10,Candace,4,Sumeru,Hydro,Polearm,Tall Female,Sagitta Scutum,"03-may","09/28/22"
+11,Chongyun,4,Liyue,Cryo,Claymore,Medium Male,Nubis Caesor,"07-sep","09/28/20"
+12,Collei,4,Sumeru,Dendro,Bow,Medium Female,Leptailurus Cervarius,"08-may","08/24/22"
+13,Cyno,5,Sumeru,Electro,Polearm,Medium Male,Lupus Aureus,"23-jun","09/28/22"
+14,Dehya,5,Sumeru,Pyro,Claymore,Tall Female,Mantichora,"7-Apr","03/01/2023"
+15,Diluc,5,Mondstadt,Pyro,Claymore,Tall Male,Noctua,"30-Apr","09/28/20"
+16,Diona,4,Mondstadt,Cryo,Bow,Short Female,Feles,"18-Jan","11/11/2020"
+17,Dori,4,Sumeru,Electro,Claymore,Short Female,Magicae Lucerna,"21-Dec","09/09/2022"
+18,Eula,5,Mondstadt,Cryo,Claymore,Tall Female,Aphros Delos,"25-oct","05/18/21"
+19,Faruzan,4,Sumeru,Anemo,Bow,Medium Female,Flosculi Implexi,"20-Aug","12/07/2023"
+20,Fischl,4,Mondstadt,Electro,Bow,Medium Female,Corvus,"27-may","09/28/20"
+21,Freminet,4,Fontaine,Cryo,Claymore,Medium Male,Automaton,"24-sep","09/05/2023"
+22,Ganyu,5,Liyue,Cryo,Bow,Medium Female,Sinae Unicornis,"2-Dec","01/12/2021"
+23,Gorou,4,Inazuma,Geo,Bow,Medium Male,Canis Bellatoris,"18-may","12/14/21"
+24,Hu Tao,5,Liyue,Pyro,Polearm,Medium Female,Papilio Charontis,"15-jul","03/02/2021"
+25,Jean,5,Mondstadt,Anemo,Sword,Tall Female,Leo Minor,"14-mar","09/28/20"
+26,Kaedehara Kazuha,5,Inazuma,Anemo,Sword,Medium Male,Acer Palmatum,"29-oct","06/29/21"
+27,Kaeya,4,Mondstadt,Cryo,Sword,Tall Male,Pavo Ocellus,"30-nov","09/28/20"
+28,Kamisato Ayaka,5,Inazuma,Cryo,Sword,Medium Female,Grus Nivis,"28-sep","07/21/21"
+29,Kamisato Ayato,5,Inazuma,Hydro,Sword,Tall Male,Cypressus Custos,"26-mar","04/30/22"
+30,Kaveh,4,Sumeru,Dendro,Claymore,Tall Male,Paradisaea,"09-jul","05/02/2023"
+31,Keqing,5,Liyue,Electro,Sword,Medium Female,Trulla Cementarii,"20-nov","09/28/20"
+32,Kirara,4,Inazuma,Dendro,Sword,Medium Female,Arcella,"22-Jan","05/24/23"
+33,Klee,5,Mondstadt,Pyro,Catalyst,Short Female,Trifolium,"27-jul","10/20/20"
+34,Kujou Sara,4,Inazuma,Electro,Bow,Tall Female,Flabellum,"14-jul","09/01/2021"
+35,Kuki Shinobu,4,Inazuma,Electro,Sword,Medium Female,Tribulatio Demptio,"27-jul","06/21/22"
+36,Layla,4,Sumeru,Cryo,Sword,Medium Female,Luscinia,"19-Dec","11/18/22"
+37,Lisa,4,Mondstadt,Electro,Catalyst,Tall Female,Tempus Fugit,"09-jun","09/28/20"
+38,Lynette,4,Fontaine,Anemo,Sword,Medium Female,Felis Alba,"02-feb","08/16/23"
+39,Lyney,5,Fontaine,Pyro,Bow,Medium Male,Felis Fuscus,"02-feb","08/16/23"
+40,Mika,4,Mondstadt,Cryo,Polearm,Medium Male,Palumbus,"11-Aug","03/21/23"
+41,Mona,5,Mondstadt,Hydro,Catalyst,Medium Female,Astrolabos,"31-Aug","09/28/20"
+42,Nahida,5,Sumeru,Dendro,Catalyst,Short Female,Sapientia Oromasdis,"27-oct","11/02/2022"
+43,Nilou,5,Sumeru,Hydro,Sword,Medium Female,Lotos Somno,"3-Dec","10/14/22"
+44,Ningguang,4,Liyue,Geo,Catalyst,Tall Female,Opus Aequilibrium,"26-Aug","09/28/20"
+45,Noelle,4,Mondstadt,Geo,Claymore,Medium Female,Parma Cordis,"21-mar","09/28/20"
+46,Qiqi,5,Liyue,Cryo,Sword,Short Female,Pristina Nova,"03-mar","09/28/20"
+47,Raiden Shogun,5,Inazuma,Electro,Polearm,Tall Female,Imperatrix Umbrosa,"26-jun","09/01/2021"
+48,Razor,4,Mondstadt,Electro,Claymore,Medium Male,Lupus Minor,"09-sep","09/28/20"
+49,Rosaria,4,Mondstadt,Cryo,Polearm,Tall Female,Spinea Corona,"24-Jan","04/06/2021"
+50,Sangonomiya Kokomi,5,Inazuma,Hydro,Catalyst,Medium Female,Dracanea Somnolenta,"22-feb","09/21/21"
+51,Sayu,4,Inazuma,Anemo,Claymore,Short Female,Nyctereutes Minor,"19-oct","08/10/2021"
+52,Shenhe,5,Liyue,Cryo,Polearm,Tall Female,Crista Doloris,"10-mar","01/05/2022"
+53,Shikanoin Heizou,4,Inazuma,Anemo,Catalyst,Medium Male,Cervus Minor,"24-jul","07/13/22"
+54,Sucrose,4,Mondstadt,Anemo,Catalyst,Medium Female,Ampulla,"26-sep","09/28/20"
+55,Tartaglia,5,Snezhnaya,Hydro,Bow,Tall Male,Monoceros Caeli,"20-jul","11/11/2020"
+56,Thoma,4,Inazuma,Pyro,Polearm,Tall Male,Rubeum Scutum,"9-Jan","10/02/2021"
+57,Tighnari,5,Sumeru,Dendro,Bow,Medium Male,Vulpes Zerda,"29-Dec","08/24/22"
+58,Traveler (Aether),5,NA,None,Sword,Medium Female,Viator,Player's Choice,"09/28/20"
+59,Traveler (Lumine),5,NA,None,Sword,Medium Male,Viatrix,Player's Choice,"09/28/20"
+60,Venti,5,Mondstadt,Anemo,Bow,Medium Male,Carmen Dei,"16-jun","09/28/20"
+61,Wanderer,5,Sumeru,Anemo,Catalyst,Medium Male,Peregrinus,"3-Jan","12/07/2022"
+62,Xiangling,4,Liyue,Pyro,Polearm,Medium Female,Trulla,"02-nov","09/28/20"
+63,Xiao,5,Liyue,Anemo,Polearm,Medium Male,Alatus Nemeseos,"17-Apr","02/03/2021"
+64,Xingqiu,4,Liyue,Hydro,Sword,Medium Male,Fabulae Textile,"09-oct","09/28/20"
+65,Xinyan,4,Liyue,Pyro,Claymore,Medium Female,Fila Ignium,"16-oct","12/01/2020"
+66,Yae Miko,5,Inazuma,Electro,Catalyst,Tall Female,Divina Vulpes,"27-jun","02/16/22"
+67,Yanfei,4,Liyue,Pyro,Catalyst,Medium Female,Bestia Iustitia,"28-jul","04/28/21"
+68,Yaoyao,4,Liyue,Dendro,Polearm,Short Female,Osmanthus,"06-mar","01/18/23"
+69,Yelan,5,Liyue,Hydro,Bow,Tall Female,Umbrabilis Orchis,"20-Apr","05/31/22"
+70,Yoimiya,5,Inazuma,Pyro,Bow,Medium Female,Carassius Auratus,"21-jun","08/10/2021"
+71,Yun Jin,4,Liyue,Geo,Polearm,Medium Female,Opera Grandis,"21-may","01/05/2022"
+72,Zhongli,5,Liyue,Geo,Polearm,Tall Male,Lapis Dei,"31-Dec","12/01/2020"
+78,Itzamar,5,Liyue,Pyro,Sword,Tall Female,cisne,"1-Ago","12/3/2023"
+79,Miguel,5,Liyue,Pyro,Sword,Tall Female,cisne,"29-Ago","27/5/2023"
